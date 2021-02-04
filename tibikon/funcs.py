@@ -29,7 +29,10 @@ class Feast():
 		else:
 			easter= str(year) + ',' + '3' + ',' + str(easter)
 		Easter = dt.datetime.strptime(easter, '%Y,%m,%d').date()
-		Easter = Easter + dt.timedelta(days=13)
+		if year <2100:
+			Easter = Easter + dt.timedelta(days=13)
+		else:
+			Easter = Easter + dt.timedelta(days=14)
 		Ascension = Easter + dt.timedelta(days=39)
 		Pentecost = Easter + dt.timedelta(days=49)
 		return Easter, Ascension, Pentecost
@@ -84,9 +87,9 @@ class Feast():
 
 
 	def service(self):
-		if self.serv == "Vespers": 
+		if self.serv == "Vespers": 			
 			service = Vespers(self.level)
-		return service
+			return service
 
 
 	def feast(self, date):	
