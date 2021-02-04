@@ -32,7 +32,7 @@
 					{% if isit %}
 						<center>
 							<h3>اليوم</h3>
-							التاريخ: {{date}}<br>
+							التاريخ: {{date | date:"d/m/Y"}}<br>
 							الخدمة: {{service}}<br>
 							العيد: {{sink}}<br>
 						</center>
@@ -40,47 +40,40 @@
 							<hr><center><h1>الدورة الفصحية</h1></center><hr>							
 							<div class="col-sm">
 								<center><h3>آحاد التهيئة</h3></center>
-								أحد زكا: {{Zacchaeus}}<br>
-								أحد الفريسي والعشار: {{PnPH}}<br>
-								أحد الابن الشاطر: {{PS}}<br>
-								أحد الدينونة: {{LD}}<br>
-								أحد الغفران: {{SF}}<br>
-								بدء الصوم: {{lent}}<br>
+								أحد زكا: {{Zacchaeus | date:"d/m/Y"}}<br>
+								أحد الفريسي والعشار: {{PnPH | date:"d/m/Y"}}<br>
+								أحد الابن الشاطر: {{PS | date:"d/m/Y"}}<br>
+								أحد الدينونة: {{LD | date:"d/m/Y"}}<br>
+								أحد الغفران: {{SF | date:"d/m/Y"}}<br>
+								بدء الصوم: {{lent | date:"d/m/Y"}}<br>
 							</div>
 							<div class="col-sm">
 								<center><h3>فترة الصوم</h3></center>
-								أحد الأرثوذكسية: {{orthodoxy}}<br>
-								أحد غريغوريوس بالاماس: {{GP}}<br>
-								أحد رفع الصليب: {{cross}}<br>
-								أحد يوحنا السلمي: {{ladder}}<br>
-								أحد مريم المصرية: {{egypt}}<br>
-								سبت لعازار: {{lazarus}}<br>
-								أحد الشعانين: {{palms}}<br>
-								الاثنين العظيم: {{GM}}<br>
-								الثلاثاء العظيم: {{GT}}<br>
-								الأربعاء العظيم: {{GW}}<br>
-								الخميس العظيم: {{GTH}}<br>
-								الجمعة العظيمة: {{GF}}<br>
-								سبت النور: {{GS}}<br>
-								الفصح: {{pascha}}<br>
+								أحد الأرثوذكسية: {{orthodoxy | date:"d/m/Y"}}<br>
+								أحد غريغوريوس بالاماس: {{GP | date:"d/m/Y"}}<br>
+								أحد رفع الصليب: {{cross | date:"d/m/Y"}}<br>
+								أحد يوحنا السلمي: {{ladder | date:"d/m/Y"}}<br>
+								أحد مريم المصرية: {{egypt | date:"d/m/Y"}}<br>
+								سبت لعازار: {{lazarus | date:"d/m/Y"}}<br>
+								أحد الشعانين: {{palms | date:"d/m/Y"}}<br>
+								الاثنين العظيم: {{GM | date:"d/m/Y"}}<br>
+								الثلاثاء العظيم: {{GT | date:"d/m/Y"}}<br>
+								الأربعاء العظيم: {{GW | date:"d/m/Y"}}<br>
+								الخميس العظيم: {{GTH | date:"d/m/Y"}}<br>
+								الجمعة العظيمة: {{GF | date:"d/m/Y"}}<br>
+								سبت النور: {{GS | date:"d/m/Y"}}<br>
+								الفصح: {{pascha | date:"d/m/Y"}}<br>
 							</div>
 							<div class="col-sm">
 								<center><h3>البندكستاريون</h3></center>
-								الصعود: {{ascension}}<br>
-								العنصرة:	{{pentecost}}<br>
+								الصعود: {{ascension | date:"d/m/Y"}}<br>
+								العنصرة:	{{pentecost | date:"d/m/Y"}}<br>
 							</div>
 							
 
 						</div>
 					{% endif %}
-				</div>
-				<div>
-					
-				</div>
-				
-			</div>
-			
-			
-		
+				</div>							
+			</div>			
 	</body>
 </html>
