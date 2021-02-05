@@ -89,7 +89,7 @@ class Feast():
 		level = ""
 		for ele in lev: 
 			level += ele
-		print(level)
+			
 		return level
 
 	def toner(self):
