@@ -8,7 +8,8 @@ class Feast():
 
 	def __init__(self, serv, date):
 		self.serv = serv
-		self.date = date
+		self.d = date
+		self.date = self.dater(self.d, self.serv)
 		self.Easter, self.Ascension, self.Pentecost = self.easter()
 		self.Zacchaeus, self.PnPH, self.PS, self.LD, self.SF, self.lent, self.orthodoxy, self.GP, self.cross, self.ladder, self.egypt, self.lazarus, self.palms, self.GM, self.GT, self.GW, self.GTH, self.GF, self.GS= self.paschalion()
 		self.feast, self.sink = self.feast(self.date)
@@ -70,11 +71,17 @@ class Feast():
 		else:
 			return False
 
+	def dater(self, d, service):
+		if service == "Vespers":
+			date = d + dt.timedelta(days=1)
+		else:
+			date = d
+		return date
 
 
 	def leveler(self):
 		lev = []
-		if self.is_sunday(self.date, self.serv):
+		if self.is_sunday(self.d, self.serv):
 			lev.append('X')
 		f =self.feast
 		f= ''.join(f.split())

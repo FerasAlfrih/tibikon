@@ -46,6 +46,7 @@ def home(request):
 		GTH = serv.GTH
 		GF = serv.GF
 		GS = serv.GS
+		date = serv.date
 	else:
 		service = None
 		tone = None
