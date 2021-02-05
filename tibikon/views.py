@@ -7,7 +7,7 @@ register = template.Library()
 
 @register.filter(name='persianize_digits')                                              
 def persian_int(string):                                                                
-    persianize = dict(zip("0123456789",'۰۱۲۳۴۵۶۷۸۹'))                                   
+    persianize = dict(zip("0123456789",'۰١٢۳٤۵٦۷۸۹'))                                   
     return ''.join(persianize[digit] if digit in persianize else digit for digit in str(string))
 
 def home(request):
@@ -18,6 +18,8 @@ def home(request):
 		date = dt.datetime.strptime(date, '%Y,%m,%d').date()
 		dat = date.strftime('%A')
 		serv = tbk(ser, date)
+		tone = serv.tone
+		iothina = serv.iothina
 		service = serv.service.service
 		pascha = serv.Easter
 		ascension = serv.Ascension
@@ -45,6 +47,8 @@ def home(request):
 		GS = serv.GS
 	else:
 		service = None
+		tone = None
+		iothina = None
 		date = None
 		dat = None
 		pascha = None
@@ -74,6 +78,8 @@ def home(request):
 
 	context = {
 		'service': service,
+		'tone' : tone,
+		'iothina' : iothina,
 		'date': date,
 		'dat': dat,
 		'pascha': pascha,

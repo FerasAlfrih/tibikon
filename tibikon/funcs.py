@@ -14,7 +14,7 @@ class Feast():
 		self.feast, self.sink = self.feast(self.date)
 		self.level = self.leveler()
 		self.service = self.service()		
-		 
+		self.tone, self.iothina = self.toner()
 	
 
 	def easter(self):
@@ -84,6 +84,20 @@ class Feast():
 			level += ele
 		print(level)
 		return level
+
+	def toner(self):
+		date = self.date
+		easter = self.Easter
+		pentecost = self.Pentecost
+		tones = ['الأول','الثاني','الثالث','الرابع','الخامس','السادس','السابع','الثامن']
+		iothinas = ['الأولى','الثانية','الثالثة','الرابعة','الخامسة','السادسة','السابعة','الثامنة', 'التاسعة', 'العاشرة', 'الحادية عشرة']
+		delta = date - easter
+		delta = (delta.days / 7)
+		tone = tones[(int(delta)%8) - 1]
+		idelta = date - pentecost
+		idelta = (idelta.days / 7)
+		iothina = iothinas[(int(idelta)%11) - 1]
+		return tone, iothina
 
 
 	def service(self):
