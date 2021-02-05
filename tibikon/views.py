@@ -20,6 +20,7 @@ def home(request):
 		serv = tbk(ser, date)
 		tone = serv.tone
 		iothina = serv.iothina
+		pentaweek = serv.pentaweek
 		service = serv.service.service
 		pascha = serv.Easter
 		ascension = serv.Ascension
@@ -49,6 +50,7 @@ def home(request):
 		service = None
 		tone = None
 		iothina = None
+		pentaweek = None
 		date = None
 		dat = None
 		pascha = None
@@ -80,6 +82,7 @@ def home(request):
 		'service': service,
 		'tone' : tone,
 		'iothina' : iothina,
+		'pentaweek': pentaweek,
 		'date': date,
 		'dat': dat,
 		'pascha': pascha,

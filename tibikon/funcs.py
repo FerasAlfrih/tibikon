@@ -14,7 +14,7 @@ class Feast():
 		self.feast, self.sink = self.feast(self.date)
 		self.level = self.leveler()
 		self.service = self.service()		
-		self.tone, self.iothina = self.toner()
+		self.tone, self.iothina, self.pentaweek = self.toner()
 	
 
 	def easter(self):
@@ -95,9 +95,9 @@ class Feast():
 		delta = (delta.days / 7)
 		tone = tones[(int(delta)%8) - 1]
 		idelta = date - pentecost
-		idelta = (idelta.days / 7)
-		iothina = iothinas[(int(idelta)%11) - 1]
-		return tone, iothina
+		pentaweek = int(idelta.days / 7)
+		iothina = iothinas[(pentaweek%11) - 1]
+		return tone, iothina, pentaweek
 
 
 	def service(self):
