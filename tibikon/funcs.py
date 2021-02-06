@@ -11,7 +11,7 @@ class Feast():
 		self.d = date
 		self.date = self.dater(self.d, self.serv)
 		self.Easter, self.Ascension, self.Pentecost = self.easter()
-		self.Zacchaeus, self.PnPH, self.PS, self.LD, self.SF, self.lent, self.orthodoxy, self.GP, self.cross, self.ladder, self.egypt, self.lazarus, self.palms, self.GM, self.GT, self.GW, self.GTH, self.GF, self.GS, self.toma = self.paschalion()
+		self.Zacchaeus, self.PnPH, self.PS, self.LD, self.SF, self.lent, self.orthodoxy, self.GP, self.cross, self.ladder, self.egypt, self.lazarus, self.palms, self.GM, self.GT, self.GW, self.GTH, self.GF, self.GS, self.toma, self.perf, self.mokh, self.sam, self.blond, self.fef = self.paschalion()
 		self.feast, self.sink = self.feast(self.date)
 		self.level = self.leveler()
 		self.service = self.service()		
@@ -61,8 +61,13 @@ class Feast():
 		GF = easter - dt.timedelta(days=2)
 		GS = easter - dt.timedelta(days=1)
 		toma = easter + dt.timedelta(days=7)
+		perf = toma + dt.timedelta(days=7)
+		mokh = perf + dt.timedelta(days=7)
+		sam = mokh + dt.timedelta(days=7)
+		blond = sam + dt.timedelta(days=7)
+		fef = blond + dt.timedelta(days=7)
 		
-		return Zacchaeus, PnPH, PS, LD, SF, lent, orthodoxy, GP,cross,ladder,egypt,lazarus,palms, GM, GT, GW, GTH, GF, GS, toma
+		return Zacchaeus, PnPH, PS, LD, SF, lent, orthodoxy, GP,cross,ladder,egypt,lazarus,palms, GM, GT, GW, GTH, GF, GS, toma,perf,mokh,sam,blond,fef
 
 	def is_sunday(self, date, service): 
 		if date.strftime("%A") == "Sunday" and service != "Vespers":
