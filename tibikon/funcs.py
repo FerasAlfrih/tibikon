@@ -11,7 +11,7 @@ class Feast():
 		self.d = date
 		self.date = self.dater(self.d, self.serv)
 		self.Easter, self.Ascension, self.Pentecost = self.easter()
-		self.Zacchaeus, self.PnPH, self.PS, self.LD, self.SF, self.lent, self.orthodoxy, self.GP, self.cross, self.ladder, self.egypt, self.lazarus, self.palms, self.GM, self.GT, self.GW, self.GTH, self.GF, self.GS= self.paschalion()
+		self.Zacchaeus, self.PnPH, self.PS, self.LD, self.SF, self.lent, self.orthodoxy, self.GP, self.cross, self.ladder, self.egypt, self.lazarus, self.palms, self.GM, self.GT, self.GW, self.GTH, self.GF, self.GS, self.toma = self.paschalion()
 		self.feast, self.sink = self.feast(self.date)
 		self.level = self.leveler()
 		self.service = self.service()		
@@ -60,8 +60,9 @@ class Feast():
 		GTH = easter - dt.timedelta(days=3)
 		GF = easter - dt.timedelta(days=2)
 		GS = easter - dt.timedelta(days=1)
+		toma = easter + dt.timedelta(days=7)
 		
-		return Zacchaeus, PnPH, PS, LD, SF, lent, orthodoxy, GP,cross,ladder,egypt,lazarus,palms, GM, GT, GW, GTH, GF, GS
+		return Zacchaeus, PnPH, PS, LD, SF, lent, orthodoxy, GP,cross,ladder,egypt,lazarus,palms, GM, GT, GW, GTH, GF, GS, toma
 
 	def is_sunday(self, date, service): 
 		if date.strftime("%A") == "Sunday" and service != "Vespers":
@@ -89,7 +90,7 @@ class Feast():
 		level = ""
 		for ele in lev: 
 			level += ele
-			
+
 		return level
 
 	def toner(self):
@@ -103,7 +104,22 @@ class Feast():
 		tone = tones[(int(delta)%8) - 1]
 		idelta = date - pentecost
 		pentaweek = int(idelta.days / 7)
-		iothina = iothinas[(pentaweek%11) - 1]
+		if date == easter:
+			iothina = iothinas[1]
+		elif date == self.toma:
+			iothina = iothinas[0]
+		elif date == self.perf:
+			iothina = iothinas[3] 
+		elif date == self.mokh:
+			iothina = iothinas[4] 
+		elif date == self.sam:
+			iothina = iothinas[6]
+		elif date == self.blond:
+			iothina = iothinas[7]
+		elif date == self.fef:
+			iothina = iothinas[9]
+		else:
+			iothina = iothinas[(pentaweek%11) - 1]
 		return tone, iothina, pentaweek
 
 
