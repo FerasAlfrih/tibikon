@@ -123,6 +123,26 @@ class Feast():
 			iothina = iothinas[7]
 		elif date == self.fef:
 			iothina = iothinas[9]
+		elif date == self.palms:
+			iothina = "للعيد"
+		elif date == self.Easter:
+			iothina = "للعيد"
+		elif date == self.Pentecost:
+			iothina = "للعيد"
+		elif date.day == 2 and date.month == 2:
+			iothina = "للعيد"
+		elif date.day == 6 and date.month == 8:
+			iothina = "للعيد"
+		elif date.day == 25 and date.month == 3:
+			iothina = "للعيد"
+		elif date.day == 8 and date.month == 9:
+			iothina = "للعيد"
+		elif date.day == 14 and date.month == 9:
+			iothina = "للعيد"
+		elif date.day == 21 and date.month == 11:
+			iothina = "للعيد"
+		elif date.day == 15 and date.month == 8:
+			iothina = "للعيد"
 		else:
 			iothina = iothinas[(pentaweek%11) - 1]
 		return tone, iothina, pentaweek
