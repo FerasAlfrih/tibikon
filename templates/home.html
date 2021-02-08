@@ -35,12 +35,12 @@
 					{% if isit %}
 						<center>
 							<h3>اليوم</h3>
-							التاريخ: ال{{date | date:"D, d/m/Y" }}<br>
-							الخدمة: {{service}}<br>
-							العيد: {{sink}}<br>
-							لحن الأسبوع: {{tone}}<br>
-							الإيوثينا: {{iothina}}<br>
-							ترتيب الخدمة: {{servs}}<br>
+							<larg>التاريخ: </larg><small> ال{{date | date:"D, d/m/Y" }}</small><br>
+							<larg>الخدمة: </larg><small> {{service}}</small><br>
+							<larg>العيد: </larg><small> {{sink}}</small><br>
+							<larg>لحن الأسبوع: </larg><small> {{tone}}</small><br>
+							<larg>الإيوثينا: </larg><small> {{iothina}}</small><br>
+							<larg>ترتيب الخدمة: </larg><small>{{servs}}</small><br>
 							الأحد {{pentaweek}} بعد العنصرة <br>* طلب خدمة الغروب يزيد يوم على التاريخ المدخل <br>**سيتم إخفاء الإيوثينا في  أيام الأسبوع عدا الأحد <br>
 							{% if dat == "Sunday" %}
 							{% endif %}
