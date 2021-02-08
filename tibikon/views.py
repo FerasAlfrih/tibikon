@@ -13,7 +13,10 @@ def persian_int(string):
 def home(request):
 	if request.method == "POST":
 		ser = request.POST.get('service')
-		date = request.POST.get('date')
+		d = request.POST.get('date')
+		e = dt.datetime.now()
+		print("E = ", e)
+		date = d if d != '' else dt.datetime.strftime(e, '%Y,%m,%d')
 		date = date.replace("-", ",")
 		date = dt.datetime.strptime(date, '%Y,%m,%d').date()
 		dat = date.strftime('%A')

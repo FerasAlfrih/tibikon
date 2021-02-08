@@ -10,7 +10,7 @@ class Feast():
 		self.serv = serv
 		self.d = date
 		self.date = self.dater(self.d, self.serv)
-		self.Easter, self.Ascension, self.Pentecost = self.easter()
+		self.Easter, self.Ascension, self.Pentecost = self.easter(self.d)
 		self.Zacchaeus, self.PnPH, self.PS, self.LD, self.SF, self.lent, self.orthodoxy, self.GP, self.cross, self.ladder, self.egypt, self.lazarus, self.palms, self.GM, self.GT, self.GW, self.GTH, self.GF, self.GS, self.toma, self.perf, self.mokh, self.sam, self.blond, self.fef = self.paschalion()
 		self.feast, self.sink = self.feast(self.date)
 		self.level = self.leveler()
@@ -18,8 +18,8 @@ class Feast():
 		self.tone, self.iothina, self.pentaweek = self.toner()
 	
 
-	def easter(self):
-		year=self.date.year
+	def easter(self,date):
+		year= date.year
 		silver=year%19
 		pfm=21+(19*silver+15)%30
 		dow=(pfm+year+year//4)%7
@@ -88,8 +88,11 @@ class Feast():
 	def leveler(self):
 		lev = []
 		if self.is_sunday(self.d, self.serv):
-			lev.append('X')
-		f =self.feast
+			lev.append('X')		
+		if self.feast == "":
+			f = "ZZ"
+		else:
+			f =self.feast		
 		f= ''.join(f.split())
 		lev.append(f)
 		level = ""
@@ -100,8 +103,11 @@ class Feast():
 
 	def toner(self):
 		date = self.date
-		easter = self.Easter
+		easter = self.Easter		 
 		pentecost = self.Pentecost
+		if date < easter:
+			d = date - dt.timedelta(days=365)
+			easter, a, pentecost = self.easter(d)
 		tones = ['الأول','الثاني','الثالث','الرابع','الخامس','السادس','السابع','الثامن']
 		iothinas = ['الأولى','الثانية','الثالثة','الرابعة','الخامسة','السادسة','السابعة','الثامنة', 'التاسعة', 'العاشرة', 'الحادية عشرة']
 		delta = date - easter
@@ -164,17 +170,18 @@ class Feast():
 		    month = month.replace("\'", "")
 		    month = month.capitalize()
 		    if month == m:		    
-			    day = node.find(d)
+			    day = node.find(d)			  
 			    i = node.find(d)[0].text
 			    i = i.replace("\"", "")
 			    i = i.replace(" ", "")
 			    k = node.find(d)[1].text
 			    day = str(day).split(" ")[1]
 			    day = day.replace("a", "")
-			    day = day.replace("\'", "")
-			    return i, k
+			    day = day.replace("\'", "")			   
 		    else:
-		    	return None
+		    	i = ""
+		    	k = ""
+		    return i, k
 	
 
 
