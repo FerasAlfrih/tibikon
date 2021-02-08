@@ -218,630 +218,687 @@ class Vespers():
 
 	def XX(self):
 		service = "الفصح"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WW(self):
 		service = "Sayiedi"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VV(self):
 		service = "Waldi"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YY(self):
 		service = "MumtazG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YW(self):
 		service = "MumtazW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YV(self):
 		service = "MumtazN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZZ(self):
 		service = "قديس يومي"
+		tone = "لحن الأسبوع"
 		pieces = "3 معزي + 3 ميناون"
 		fdoxa = "لا يوجد"
 		prokiminon = "السواعي"
 		readings = "لا يوجد"
 		apostikn = "المعزي"
 		apdoxa = "لا يوجد"
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YVY(self):
 		service = "MumtazWE"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZZ(self):
 		service = "قيامة مع عيد غير ممتاز"
+		tone = "لا يوجد"
 		pieces = "7 معزي + 3 ميناون "
 		fdoxa = "ذكصا كانين معزي"
 		prokiminon = "الرب قد ملك"
 		readings = "لا يوجد"
 		apostikn = "معزي"
 		apdoxa = "ذكصا  كانين للحن"
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ readings +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ readings +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWW(self):
 		service = "QS"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVV(self):
 		service = "QW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYY(self):
 		service = "QMG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYW(self):
 		service = "QMW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYV(self):
 		service = "QMN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WV(self):
 		service = "SW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYY(self):
 		service = "SMG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYW(self):
 		service = "SMW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYV(self):
 		service = "SMN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYY(self):
 		service = "WMG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYW(self):
 		service = "WMW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYV(self):
 		service = "WMN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYY(self):
 		service = "2MG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYW(self):
 		service = "GW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYV(self):
 		service = "GN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YWW(self):
 		service = "2MW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YWV(self):
 		service = "WN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YVV(self):
 		service = "2MN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZV(self):
 		service = "+W"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZW(self):
 		service = "+S"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZX(self):
 		service = "+Q"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZY(self):
 		self.zz()
 		# service = "N+"
-		# pieces = None
-		# fdoxa = None
-		# prokiminon = None
-		# readings = None
-		# apostikn = None
-		# apdoxa = None
-		# serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		# tone = "لا يوجد"
+		# pieces = "لا يوجد"
+		# fdoxa = "لا يوجد"
+		# prokiminon = "لا يوجد"
+		# readings = "لا يوجد"
+		# apostikn = "لا يوجد"
+		# apdoxa = "لا يوجد"
+		# serv "اللحن: " + tone + = -  "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		# return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VY(self):
 		service = "-W"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYZ(self):
 		service = "-MG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WY(self):
 		service = "-S"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XY(self):
 		service = "-Q"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWV(self):
 		service = "QSW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYY(self):
 		service = "QSMG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYW(self):
 		service = "QSMW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYV(self):
 		service = "QSMN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYY(self):
 		service = "QWMG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYW(self):
 		service = "QWMW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYV(self):
 		service = "QWMN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYY(self):
 		service = "Q2MG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYW(self):
 		service = "QGW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYV(self):
 		service = "QGN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYWW(self):
 		service = "Q2MW"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYWV(self):
 		service = "QWN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYVV(self):
 		service = "Q2MN"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZV(self):
 		service = "Q+W"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZW(self):
 		service = "Q+S"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZX(self):
 		service = "Q+Q"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZY(self):
 		service = "QN+"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVY(self):
 		service = "Q-W"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYZ(self):
 		service = "Q-MG"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWY(self):
 		service = "Q-S"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XXY(self):
 		service = "Q-Q"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYVY(self):
 		service = "QMumtazWE"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		tone = "لا يوجد"
+		pieces = "لا يوجد"
+		fdoxa = "لا يوجد"
+		prokiminon = "لا يوجد"
+		readings = "لا يوجد"
+		apostikn = "لا يوجد"
+		apdoxa = "لا يوجد"
+		serv = "اللحن: " + tone + " - قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 
