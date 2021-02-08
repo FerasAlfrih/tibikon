@@ -224,7 +224,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WW(self):
@@ -235,7 +235,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VV(self):
@@ -246,7 +246,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YY(self):
@@ -257,7 +257,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YW(self):
@@ -268,7 +268,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YV(self):
@@ -279,18 +279,18 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZZ(self):
-		service = "Normal"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = None
+		service = "قديس يومي"
+		pieces = "3 معزي + 3 ميناون"
+		fdoxa = "لا يوجد"
+		prokiminon = "السواعي"
+		readings = "لا يوجد"
+		apostikn = "المعزي"
+		apdoxa = "لا يوجد"
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YVY(self):
@@ -301,7 +301,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZZ(self):
@@ -312,7 +312,7 @@ class Vespers():
 		readings = False
 		apostikn = "معزي"
 		apdoxa = "ذكصا  كانين للحن"
-		serv = "قطع الغروب"   + pieces + " الذكصا: " + fdoxa +" البروكيمينون: " + prokiminon +" القراءات: "+ str(readings) +" الأبوستيخن: "+ apostikn+" ذكصا الأبوستيخن: " + apdoxa
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWW(self):
@@ -323,7 +323,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVV(self):
@@ -334,7 +334,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYY(self):
@@ -345,7 +345,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYW(self):
@@ -356,7 +356,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYV(self):
@@ -367,7 +367,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WV(self):
@@ -378,7 +378,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYY(self):
@@ -389,7 +389,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYW(self):
@@ -400,7 +400,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYV(self):
@@ -411,7 +411,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYY(self):
@@ -422,7 +422,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYW(self):
@@ -433,7 +433,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYV(self):
@@ -444,7 +444,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYY(self):
@@ -455,7 +455,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYW(self):
@@ -466,7 +466,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYV(self):
@@ -477,7 +477,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YWW(self):
@@ -488,7 +488,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YWV(self):
@@ -499,7 +499,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YVV(self):
@@ -510,7 +510,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZV(self):
@@ -521,7 +521,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZW(self):
@@ -532,7 +532,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZX(self):
@@ -543,19 +543,20 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZY(self):
-		service = "N+"
-		pieces = None
-		fdoxa = None
-		prokiminon = None
-		readings = None
-		apostikn = None
-		apdoxa = None
-		serv = None
-		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
+		self.zz()
+		# service = "N+"
+		# pieces = None
+		# fdoxa = None
+		# prokiminon = None
+		# readings = None
+		# apostikn = None
+		# apdoxa = None
+		# serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		# return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VY(self):
 		service = "-W"
@@ -565,7 +566,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYZ(self):
@@ -576,7 +577,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WY(self):
@@ -587,7 +588,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XY(self):
@@ -598,7 +599,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWV(self):
@@ -609,7 +610,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYY(self):
@@ -620,7 +621,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYW(self):
@@ -631,7 +632,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYV(self):
@@ -642,7 +643,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYY(self):
@@ -653,7 +654,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYW(self):
@@ -664,7 +665,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYV(self):
@@ -675,7 +676,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYY(self):
@@ -686,7 +687,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYW(self):
@@ -697,7 +698,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYV(self):
@@ -708,7 +709,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYWW(self):
@@ -719,7 +720,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYWV(self):
@@ -730,7 +731,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYVV(self):
@@ -741,7 +742,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZV(self):
@@ -752,7 +753,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZW(self):
@@ -763,7 +764,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZX(self):
@@ -774,7 +775,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZY(self):
@@ -785,7 +786,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVY(self):
@@ -796,7 +797,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYZ(self):
@@ -807,7 +808,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWY(self):
@@ -818,7 +819,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XXY(self):
@@ -829,7 +830,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYVY(self):
@@ -840,7 +841,7 @@ class Vespers():
 		readings = None
 		apostikn = None
 		apdoxa = None
-		serv = None
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 
