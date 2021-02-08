@@ -40,7 +40,7 @@ class Feast():
 
 
 	def paschalion(self):		 
-		easter = self.Easter
+		easter = self.Easter		
 		Zacchaeus = easter - dt.timedelta(days=77)
 		PnPH = easter - dt.timedelta(days=70)
 		PS = easter - dt.timedelta(days=63)
@@ -158,6 +158,27 @@ class Feast():
 		if self.serv == "Vespers": 			
 			service = Vespers(self.level)
 			return service
+		if self.serv == "sahar": 			
+			service = sahar(self.level)
+			return service
+		if self.serv == "divineLiturgie": 			
+			service = divineLiturgie(self.level)
+			return service
+		if self.serv == "firstHour": 			
+			service = firstHour(self.level)
+			return service
+		if self.serv == "thirdHour": 			
+			service = thirdHour(self.level)
+			return service
+		if self.serv == "sixthHour": 			
+			service = sixthHour(self.level)
+			return service
+		if self.serv == "ninethHour": 			
+			service = ninethHour(self.level)
+			return service
+		if self.serv == "Midnight": 			
+			service = Midnight(self.level)
+			return service
 
 
 	def feast(self, date):	
@@ -193,235 +214,634 @@ class Vespers():
 		def func_not_found(): # just in case we dont have the function
 			print( 'No Function '+self.level+' Found!')	
 		func = getattr(self,self.level,func_not_found)
-		self.service = func()
+		self.service, self.pieces, self.fdoxa, self.prokiminon,self.readings, self.apostikn, self.apdoxa, self.serv = func()
 
 	def XX(self):
-		service = "Qyamah"
-		return service
+		service = "الفصح"
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WW(self):
 		service = "Sayiedi"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VV(self):
 		service = "Waldi"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YY(self):
 		service = "MumtazG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YW(self):
 		service = "MumtazW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YV(self):
 		service = "MumtazN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZZ(self):
 		service = "Normal"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YVY(self):
 		service = "MumtazWE"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZZ(self):
-		service = "QN"
-		return service
+		service = "قيامة مع عيد غير ممتاز"
+		pieces = "7 معزي + 3 ميناون "
+		fdoxa = "ذكصا كانين معزي"
+		prokiminon = "الرب قد ملك"
+		readings = False
+		apostikn = "معزي"
+		apdoxa = "ذكصا  كانين للحن"
+		serv = "قطع الغروب"   + pieces + " الذكصا: " + fdoxa +" البروكيمينون: " + prokiminon +" القراءات: "+ str(readings) +" الأبوستيخن: "+ apostikn+" ذكصا الأبوستيخن: " + apdoxa
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWW(self):
 		service = "QS"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVV(self):
 		service = "QW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYY(self):
 		service = "QMG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYW(self):
 		service = "QMW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYV(self):
 		service = "QMN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WV(self):
 		service = "SW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYY(self):
 		service = "SMG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYW(self):
 		service = "SMW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WYV(self):
 		service = "SMN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYY(self):
 		service = "WMG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYW(self):
 		service = "WMW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VYV(self):
 		service = "WMN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYY(self):
 		service = "2MG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYW(self):
 		service = "GW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYV(self):
 		service = "GN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YWW(self):
 		service = "2MW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YWV(self):
 		service = "WN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YVV(self):
 		service = "2MN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZV(self):
 		service = "+W"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZW(self):
 		service = "+S"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZX(self):
 		service = "+Q"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def ZY(self):
 		service = "N+"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def VY(self):
 		service = "-W"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def YYZ(self):
 		service = "-MG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def WY(self):
 		service = "-S"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XY(self):
 		service = "-Q"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWV(self):
 		service = "QSW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYY(self):
 		service = "QSMG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYW(self):
 		service = "QSMW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWYV(self):
 		service = "QSMN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYY(self):
 		service = "QWMG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYW(self):
 		service = "QWMW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVYV(self):
 		service = "QWMN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYY(self):
 		service = "Q2MG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYW(self):
 		service = "QGW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYV(self):
 		service = "QGN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYWW(self):
 		service = "Q2MW"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYWV(self):
 		service = "QWN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYVV(self):
 		service = "Q2MN"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZV(self):
 		service = "Q+W"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZW(self):
 		service = "Q+S"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZX(self):
 		service = "Q+Q"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XZY(self):
 		service = "QN+"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XVY(self):
 		service = "Q-W"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYYZ(self):
 		service = "Q-MG"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWY(self):
 		service = "Q-S"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XXY(self):
 		service = "Q-Q"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XYVY(self):
 		service = "QMumtazWE"
-		return service
+		pieces = None
+		fdoxa = None
+		prokiminon = None
+		readings = None
+		apostikn = None
+		apdoxa = None
+		serv = None
+		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 
 		

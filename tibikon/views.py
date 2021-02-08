@@ -25,6 +25,7 @@ def home(request):
 		iothina = serv.iothina
 		pentaweek = serv.pentaweek
 		service = serv.service.service
+		servs = serv.service.serv
 		pascha = serv.Easter
 		ascension = serv.Ascension
 		pentecost = serv.Pentecost
@@ -52,6 +53,7 @@ def home(request):
 		date = serv.date
 	else:
 		service = None
+		servs = None
 		tone = None
 		iothina = None
 		pentaweek = None
@@ -84,6 +86,7 @@ def home(request):
 
 	context = {
 		'service': service,
+		'servs': servs,
 		'tone' : tone,
 		'iothina' : iothina,
 		'pentaweek': pentaweek,
