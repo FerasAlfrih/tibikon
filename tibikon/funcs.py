@@ -309,10 +309,10 @@ class Vespers():
 		pieces = "7 معزي + 3 ميناون "
 		fdoxa = "ذكصا كانين معزي"
 		prokiminon = "الرب قد ملك"
-		readings = False
+		readings = "لا يوجد"
 		apostikn = "معزي"
 		apdoxa = "ذكصا  كانين للحن"
-		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ str(readings) +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
+		serv = "قطع الغروب: "   + pieces + " - الذكصا: " + fdoxa +" - البروكيمينون: " + prokiminon +" - القراءات: "+ readings +" - الأبوستيخن: "+ apostikn+" - ذكصا الأبوستيخن: " + apdoxa
 		return service, pieces, fdoxa, prokiminon,readings, apostikn, apdoxa, serv
 
 	def XWW(self):
