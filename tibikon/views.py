@@ -15,7 +15,6 @@ def home(request):
 		ser = request.POST.get('service')
 		d = request.POST.get('date')
 		e = dt.datetime.now()
-		print("E = ", e)
 		date = d if d != '' else dt.datetime.strftime(e, '%Y,%m,%d')
 		date = date.replace("-", ",")
 		date = dt.datetime.strptime(date, '%Y,%m,%d').date()
@@ -50,41 +49,29 @@ def home(request):
 		GTH = serv.GTH
 		GF = serv.GF
 		GS = serv.GS
+		toma = serv.toma
+		perf = serv.perf
+		mokh = serv.mokh
+		sam = serv.sam
+		blond = serv.blond
+		fef = serv.fef
+		saints = serv.saints
 		date = serv.date
-	else:
-		service = None
-		servs = None
-		tone = None
-		iothina = None
-		pentaweek = None
-		date = None
-		dat = None
-		pascha = None
-		ascension = None
-		pentecost = None
-		sink = None
-		Zacchaeus = None
-		PnPH = None
-		PS = None
-		LD = None
-		SF = None
-		isit = False
-		lent = None
-		orthodoxy = None
-		GP = None
-		cross = None
-		ladder = None
-		egypt = None
-		lazarus = None
-		palms = None
-		GM = None
-		GT = None
-		GW = None
-		GTH = None
-		GF = None
-		GS = None
+		apsfast = serv.apsfast
+		natfast = dt.date(date.year, 11, 15)
+		ladyfast = dt.date(date.year, 8, 1)
+		ladybirth = dt.date(date.year, 9, 8)
+		cross = dt.date(date.year, 9, 14)
+		ladyent = dt.date(date.year, 11, 21)
+		lordbirth = dt.date(date.year, 12, 25)
+		lordcirc = dt.date(date.year, 1, 1)
+		lordpab = dt.date(date.year, 1, 6)
+		lordent = dt.date(date.year, 2, 2)
+		evang = dt.date(date.year, 3, 25)
+		lordtrans = dt.date(date.year, 8, 6)
+		ladydeath = dt.date(date.year, 8, 15)
 
-	context = {
+		context = {
 		'service': service,
 		'servs': servs,
 		'tone' : tone,
@@ -116,6 +103,34 @@ def home(request):
 		"GTH" : GTH,
 		"GF" : GF,
 		"GS" : GS,
+		'toma' : toma,
+		'perf' : perf,
+		'mokh' : mokh,
+		'sam' : sam,
+		'blond' : blond,
+		'fef' : fef,
+		'saints': saints,
+		'apsfast' : apsfast,
+		'natfast' : natfast,
+		'ladyfast' : ladyfast,
+		'ladybirth': ladybirth,
+		'cross': cross,
+		'ladyent': ladyent,
+		'lordbirth': lordbirth,
+		'lordcirc': lordcirc,
+		'lordpab' : lordpab,
+		'lordent' : lordent,
+		'lordtrans' : lordtrans,
+		'evang' : evang,
+		'ladydeath' : ladydeath,
 
 	}
+
+	else:
+		isit = False
+		context = {
+		'isit': isit,
+		}
+
+	
 	return render(request, 'home.html', context)

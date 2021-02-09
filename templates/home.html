@@ -31,7 +31,7 @@
 					<input type="date" name="date">
 					<button type="submit" class="btn btn-outline-primary">بحث</button>
 				</form>
-				<div>
+				<div >
 					{% if isit %}
 						<center>
 							<h3>اليوم</h3>
@@ -41,13 +41,13 @@
 							<larg>لحن الأسبوع: </larg><small> {{tone}}</small><br>
 							<larg>الإيوثينا: </larg><small> {{iothina}}</small><br>
 							<larg>ترتيب الخدمة: </larg><small>{{servs}}</small><br>
-							الأحد {{pentaweek}} بعد العنصرة <br>* طلب خدمة الغروب يزيد يوم على التاريخ المدخل <br>**سيتم إخفاء الإيوثينا في  أيام الأسبوع عدا الأحد <br>
+							الأحد {{pentaweek}} بعد العنصرة <br>* طلب خدمة الغروب يزيد يوم على التاريخ المدخل <br>**سيتم إخفاء الإيوثينا في  أيام الأسبوع عدا الأحد <br><hr>
 							{% if dat == "Sunday" %}
 							{% endif %}
 							
 						</center>
 						<div class="row">
-							<hr><center><h1>الدورة الفصحية</h1></center><hr>							
+							<center><h1 >الدورة الفصحية</h1></center><hr>							
 							<div class="col-sm">
 								<center><h3>آحاد التهيئة</h3></center>
 								أحد زكا: ال{{Zacchaeus | date:"D, d/m/Y"}}<br>
@@ -55,10 +55,9 @@
 								أحد الابن الشاطر: ال{{PS | date:"D, d/m/Y"}}<br>
 								أحد الدينونة: ال{{LD | date:"D, d/m/Y"}}<br>
 								أحد الغفران: ال{{SF | date:"D, d/m/Y"}}<br>
-								بدء الصوم: ال{{lent | date:"D, d/m/Y"}}<br>
 							</div>
 							<div class="col-sm">
-								<center><h3>فترة الصوم</h3></center>
+								<center><h3>التريودي</h3></center>
 								أحد الأرثوذكسية: ال{{orthodoxy | date:"D, d/m/Y"}}<br>
 								أحد غريغوريوس بالاماس: ال{{GP | date:"D, d/m/Y"}}<br>
 								أحد رفع الصليب: ال{{cross | date:"D, d/m/Y"}}<br>
@@ -76,8 +75,51 @@
 							</div>
 							<div class="col-sm">
 								<center><h3>البندكستاريون</h3></center>
+								أحد توما: ال{{toma | date:"D, d/m/Y"}} <br>
+								أحد حاملات الطيب: ال{{perf | date:"D, d/m/Y"}} <br>
+								أحد  المخلع: ال{{mokh | date:"D, d/m/Y"}} <br>
+								أحد  السامرية: ال{{sam | date:"D, d/m/Y"}} <br>
+								أحد  الأعمى: ال{{blond | date:"D, d/m/Y"}} <br>
 								الصعود: ال{{ascension | date:"D, d/m/Y"}}<br>
+								أحد  آباء المجمع المسكوني الأول: ال{{toma | date:"D, d/m/Y"}} <br>
 								العنصرة: ال{{pentecost | date:"D, d/m/Y"}}<br>
+								أحد جميع القديسين: ال{{saints | date:"D, d/m/Y"}}<br>
+							</div>							<hr>
+						</div>
+						<div class="row">
+							<hr><center><h1>تواريخ مهمة</h1></center><hr>							
+							<div class="col-sm">
+								<center><h3>الأصوام</h3></center>
+								بدء الصوم الكبير: ال{{lent | date:"D, d/m/Y"}}<br>
+								{% if apsfast.day %}
+								صوم الرسل: ال{{apsfast | date:"D, d/m/Y"}}<br>
+								{% else %}
+								صوم الرسل: {{apsfast}}<br>
+								{% endif %}
+								صوم السيدة: ال{{ladyfast | date:"D, d/m/Y"}}<br>
+								صوم الميلاد: ال{{natfast | date:"D, d/m/Y"}}<br>
+							</div>
+							<div class="col-sm">
+								<center><h3>الأعياد السيدية والوالدية</h3></center>
+								ميلاد السيدة: ال{{ladybirth | date:"D, d/m/Y"}}<br>
+								عيد الصليب: ال{{cross | date:"D, d/m/Y"}}<br>
+								دخول السيدة إلى الهيكل:  ال{{ladyent | date:"D, d/m/Y"}}<br>
+								الميلاد المجيد: ال{{lordbirth | date:"D, d/m/Y"}}<br>
+								ختان السيد:  ال{{lordcirc | date:"D, d/m/Y"}}<br>
+								الظهور الإلهي:   ال{{lordpab | date:"D, d/m/Y"}}<br>
+								دخول السيد إلى الهيكل: ال{{lordent | date:"D, d/m/Y"}}<br>
+								عيد البشارة: ال{{evang | date:"D, d/m/Y"}}<br>
+								أحد الشعانين: ال{{palms | date:"D, d/m/Y"}}<br>
+								أحد الفصح: ال{{pascha | date:"D, d/m/Y"}}<br>
+								خميس الصعود: ال{{ascension | date:"D, d/m/Y"}}<br>
+								أحد العنصرة: ال{{pentecost | date:"D, d/m/Y"}}<br>
+								التجلي : ال{{lordtrans | date:"D, d/m/Y"}}<br>
+								رقاد السيدة: ال{{ladydeath | date:"D, d/m/Y"}}<br>
+
+							</div>
+							<div class="col-sm">
+								<center><h3>فارغ</h3></center>
+
 							</div>
 						</div>
 					{% endif %}
